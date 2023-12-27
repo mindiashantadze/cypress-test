@@ -25,6 +25,8 @@ export default defineConfig({
   e2e: {
     baseUrl: "https://demo.nopcommerce.com",
     specPattern: "**/*.feature",
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     setupNodeEvents
   },
 });

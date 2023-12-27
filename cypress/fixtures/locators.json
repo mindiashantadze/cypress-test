@@ -1,0 +1,6 @@
+{
+    "catalogDesktop": ".top-menu li",
+    "categoryDesktop": ".item-box a",
+    "sortButton": "#products-orderby",
+    "price": ".price"
+}
