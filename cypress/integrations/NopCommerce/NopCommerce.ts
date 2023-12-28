@@ -16,6 +16,7 @@ When("User selects category {string}", (categoryName: string) => {
 
 When("User sorts products with option {string}", (sortOption: string) => {
     plp.sort(sortOption);
+    debugger
 })
 
 Then("User should see product prices sorted from lowest to highest", () => {
