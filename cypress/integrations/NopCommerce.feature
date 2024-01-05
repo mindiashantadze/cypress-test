@@ -8,5 +8,3 @@ Feature: NopCommerce
     When User selects category "Notebooks"
     When User sorts products with option "Price: Low to High"
     Then User should see product prices sorted from lowest to highest
-
-    
